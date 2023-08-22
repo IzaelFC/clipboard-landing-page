@@ -122,6 +122,3 @@ export default function App() {
   )
 }
 
-
-/* ADICIONANDO TAILWIND NO CSS */
-/* https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes */
