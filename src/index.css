@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+@layer components {
+    button {
+        @apply py-4 md:px-20 sm:px-14 px-20 text-white hover:shadow-sm rounded-full font-semibold sm:text-xl text-xs
+    }
+
+    p {
+        @apply text-center text-[--grayish-blue] px-[20%] py-5
+    }
+
+    h2 {
+        @apply font-semibold text-center text-[--dark-grayish-blue]
+    }
+
+    h3 {
+        @apply font-semibold text-2xl text-[--dark-grayish-blue]
+    }
+
+    a {
+        @apply m-auto
+    }
+}
